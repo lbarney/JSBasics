@@ -36,12 +36,12 @@ describe('Basic JS Excercises', function () {
     })
   })
 
-  describe('Array Excercise 4 - Upfront', function () {
+  describe('Array Excercise 4 - upFront', function () {
     it('should add a number to the beginning of an array', function () {
       var arr = [1, 2, 3]
-      var upfrontArray = basics.upfront(arr, 4)
-      expect(upfrontArray.length).to.eql(4)
-      expect(upfrontArray[0]).to.eql(4)
+      var upFrontArray = basics.upFront(arr, 4)
+      expect(upFrontArray.length).to.eql(4)
+      expect(upFrontArray[0]).to.eql(4)
     })
   })
 
@@ -91,11 +91,11 @@ describe('Basic JS Excercises', function () {
   describe('Array Excercise 11 - timesTen', function () {
     it('', function () {
       var arr = [1, 2, 3]
-      var evenOddArr = basics.evenOdd(arr)
-      expect(evenOddArr.length).to.eql(3)
-      expect(evenOddArr[0]).to.eql(10)
-      expect(evenOddArr[1]).to.eql(20)
-      expect(evenOddArr[2]).to.eql(30)
+      var timesTenArr = basics.evenOdd(arr)
+      expect(timesTenArr.length).to.eql(3)
+      expect(timesTenArr[0]).to.eql(10)
+      expect(timesTenArr[1]).to.eql(20)
+      expect(timesTenArr[2]).to.eql(30)
     })
   })
 
